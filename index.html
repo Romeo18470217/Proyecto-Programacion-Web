@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body data-theme="dark">
+    <main>
+        <header>
+            <h1>Todo</h1>
+            <input type="checkbox" id="theme-switch">
+            <label for="theme-switch" class="theme-switch">
+                <div></div>
+            </label>
+        </header>
+
+        <!-- on enter/click off span animation -->
+        <input type="checkbox" id="added">
+        <label for="added">
+            <label for="new-todo" class="add-todo">
+                <span></span>
+                <input type="text" id="new-todo" placeholder="Create a new todo..." class="input-todo">
+            </label>
+        </label>
+
+        <div class="todo-container">
+            <div class="todo"></div>
+            
+            <div class="todo-info">
+                <p class="items-left"><span>0</span> items left</p>
+                <div class="showing">
+                    <p class="allTodo focused">All</p>
+                    <p class="activeTodo">Active</p>
+                    <p class="completedTodo">Completed</p>
+                </div>
+                <p class="clear">Clear Completed</p>
+            </div>
+        </div>
+        <p>Drag and drop to reorder list</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

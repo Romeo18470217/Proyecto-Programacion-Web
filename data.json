@@ -1,0 +1,26 @@
+[
+    {
+        "name": "task1",
+        "todo": "Complete online Javascript course"
+    },
+    {
+        "name": "task2",
+        "todo": "Jog around the park 3x"
+    },
+    {
+        "name": "task3",
+        "todo": "10 minutes meditation"
+    },
+    {
+        "name": "task4",
+        "todo": "Read for 1 hour"
+    },
+    {
+        "name": "task5",
+        "todo": "Pick up groceries"
+    },
+    {
+        "name": "task6",
+        "todo": "Complete Todo App on frontend Mentor"
+    }
+]
